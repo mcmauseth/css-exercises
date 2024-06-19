@@ -53,15 +53,17 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex: 1;
   gap: 8px;
 }
 
 .logo {
   justify-content: flex-start;
-  flex: 2;
+  flex: 1;
+  gap: 16px;
 }
 
-.header ul {
-  flex: 2;
+ul {
+  display: flex;
+  flex: 9;
+  gap: 16px;
 }
